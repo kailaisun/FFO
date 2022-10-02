@@ -25,7 +25,7 @@ def visual(img,info,cls_names,conf=0.2,color=None):
 #
 #         color = (0, 255, 0)
 #
-#         cv2.rectangle(img, (x0, y0), (x1, y1), color, 2)
+#         cv2.rectangle(img, (x0, y0), (x1, y1), color, 10)
 #
 #     return img
 
