@@ -119,7 +119,7 @@ if __name__=='__main__':
                         help="save path")
     args = parser.parse_args()
     torch.cuda.set_device(args.device)
-    #args.demo = 'video'
+    args.demo = 'video'
     #args.path = "/home/liup/Document/data/test/video/new/2.mp4"
     tracker = Tracker(args)
     imageflow_demo(tracker,args)

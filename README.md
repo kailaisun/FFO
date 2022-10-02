@@ -17,7 +17,7 @@ Code for A fusion framework for vision-based indoor occupancy estimation
 
  2. Clone this repository
   ```bash
-  git clone https://github.com/pl-share/fusion_framework
+  git clone https://github.com/kailaisun/FFO
   ```
  3. Install 
   ```bash
@@ -31,9 +31,8 @@ Code for A fusion framework for vision-based indoor occupancy estimation
 ```Bash
 python people_detect.py --path <video_path>
 ```
-- result of SCM
-<center><img src="./gif/1.gif" width = "" height = ""></center>
 
+<center><img src="./gif/1.gif" width = "" height = ""></center>
 - You can modify hyperparameters of JointDet module in person_detect.py.
 ```python 
       result_info = joint_de(head_info, other_info,thresh=0.8,conf=0.6,thresh1=0.8)  #line 50
@@ -42,9 +41,8 @@ python people_detect.py --path <video_path>
 - peopeo_count.py conducts LCM (YOLOX+Deepsort) of indoor view.
 - python joint.py after you obtained the sequences of two-vision LCM.
 - Note that in overhead entrance counting method our video frame rate is downsampled to one-fifth of the original video.
-- Result of YOLOX+Deepsort
-<center><img src="./gif/2.gif" width = "" height = ""></center>
-    
+- result of YOLOX+Deepsort
+<center><img src="./gif/2.gif" width = "" height = ""></center>    
     label of indoor view LCM
     ```
     frame: i, in/out num: y
