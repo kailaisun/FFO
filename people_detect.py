@@ -100,7 +100,7 @@ if __name__=='__main__':
     parser.add_argument('-m', "--model", type=str, default='yolox-s', help="choose a model")
     parser.add_argument("--camid", type=int, default=5, help="webcam demo camera id")
     parser.add_argument('-c','--ckpt',type=str,default='weights/yolox_s.pth',help="weight")
-    parser.add_argument('-d', '--device', type=int, default='7', help='choose a gpu')
+    parser.add_argument('-d', '--device', type=int, default='0', help='choose a gpu')
     parser.add_argument('-e', '--exp_files', type=str, default=None,
                         help="pls input your expriment description file")
     parser.add_argument('-f', '--conf', type=float, default=0.2,
