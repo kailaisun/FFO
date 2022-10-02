@@ -25,7 +25,7 @@ def visual(img,info,cls_names,conf=0.2,color=None):
 #
 #         color = (0, 255, 0)
 #
-#         cv2.rectangle(img, (x0, y0), (x1, y1), color, 10)
+#         cv2.rectangle(img, (x0, y0), (x1, y1), color, 2)
 #
 #     return img
 
@@ -51,7 +51,7 @@ def vis_track(img, boxes):
         font = cv2.FONT_HERSHEY_SIMPLEX
 
         txt_size = cv2.getTextSize(text, font, 0.7, 2)[0]
-        cv2.rectangle(img, (x0, y0), (x1, y1), color, 10)
+        cv2.rectangle(img, (x0, y0), (x1, y1), color, 2)
 
         txt_bk_color = (color_ * 255 * 0.7).astype(np.uint8).tolist()
         cv2.rectangle(
