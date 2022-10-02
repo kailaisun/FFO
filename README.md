@@ -17,7 +17,7 @@ Code for A fusion framework for vision-based indoor occupancy estimation
 
  2. Clone this repository
   ```bash
-  git clone https://github.com/pl-share/fusion_framework
+  git clone https://github.com/kailaisun/FFO
   ```
  3. Install 
   ```bash
