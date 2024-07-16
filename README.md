@@ -1,6 +1,12 @@
 # FFO
 Code for [A fusion framework for vision-based indoor occupancy estimation.](https://doi.org/10.1016/j.buildenv.2022.109631)
 
+
+
+ <img src="ffo.jpg" width="100%">
+
+ [Paper](https://www.sciencedirect.com/science/article/pii/S0360132324001975)
+ 
 ## Environment
 - The code is tested on Ubuntu 20.04.2, python 3.8, cuda 11.1.
 
@@ -73,4 +79,27 @@ python joint.py
 ```bash 
 pytho main.py
 ```
+
+## Citation
+
+Please refer to the following bibtex to cite.
+
+```
+@article{SUN2022109631,
+title = {A fusion framework for vision-based indoor occupancy estimation},
+        journal = {Building and Environment},
+        volume = {225},
+        pages = {109631},
+        year = {2022},
+        issn = {0360-1323},
+        doi = {https://doi.org/10.1016/j.buildenv.2022.109631},
+        author = {Kailai Sun and Peng Liu and Tian Xing and Qianchuan Zhao and Xinwei Wang}
+}
+```
+
+
+
+## Contact Us
+
+If you have other questions❓, please contact us in time 👬
 
